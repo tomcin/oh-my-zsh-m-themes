@@ -30,7 +30,7 @@
 #load colors
 autoload colors && colors
 for COLOR in RED GREEN YELLOW BLUE MAGENTA CYAN BLACK WHITE; do
-    eval $COLOR='%{$fg_no_bold[${(L)COLOR}]%}' #wrap colours between %{ %} to avoid weird gaps in autocomplete
+    eval $COLOR='%{$fg_no_bold[${(L)COLOR}]%}'  #wrap colours between %{ %} to avoid weird gaps in autocomplete
     eval BOLD_$COLOR='%{$fg_bold[${(L)COLOR}]%}'
 done
 eval RESET='%{$reset_color%}'
@@ -53,3 +53,4 @@ RPROMPT='%{$reset_color%}%T %{$fg_bold[green]%} %n@%m%{$reset_color%}'
 #ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 #ZSH_THEME_GIT_PROMPT_CLEAN="%{$reset_color%} branch %{$fg_bold[green]%}✔"
 #ZSH_THEME_GIT_PROMPT_DIRTY="%{$reset_color%} branch %{$fg_bold[yellow]%}✗"
+
