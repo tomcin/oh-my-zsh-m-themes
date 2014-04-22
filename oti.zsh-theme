@@ -47,7 +47,7 @@ reset=$RESET
 
 PROMPT='$(build_prompt)%{$fg_bold[blue]%}%~
 %{$fg_bold[red]%}➡ '
-RPROMPT='%{$reset_color%}%T %{$fg_bold[green]%} %n@%m%{$reset_color%}'
+RPROMPT='%{$reset_color%}%T %{$fg_bold[red]%} %n@%m%{$reset_color%}'
 
 #ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}- on %{$fg_bold[magenta]%}"
 #ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
