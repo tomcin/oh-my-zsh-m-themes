@@ -51,7 +51,7 @@ Edit de file ```.zshrc``` and add this line:
     >>> ~/.zshrc
 
 ```bash
-cat <<EOT >> ~/.zshrc
+cat <<-EOF >> ~/.zshrc
 source "$HOME/.antigen/antigen.zsh"
 
 antigen bundle bundler
@@ -82,7 +82,7 @@ antigen-bundle zsh-users/zsh-syntax-highlighting
 antigen theme Mayccoll/oh-my-git-themes lio
 
 antigen-apply
-EOT
+EOF
 ```
 
 
