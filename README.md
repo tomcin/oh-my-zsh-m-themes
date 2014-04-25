@@ -63,7 +63,7 @@ antigen bundle history
 antigen bundle kennethreitz/autoenv
 antigen bundle lein
 antigen bundle node
-antigen bundle npm
+# antigen bundle npm
 antigen bundle pip
 antigen bundle python
 antigen bundle rake
