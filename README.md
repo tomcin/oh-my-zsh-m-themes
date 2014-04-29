@@ -15,7 +15,7 @@ Edit de file ```.zshrc``` and add this line:
 
 
 
-## Installing ZSH
+### Installing ZSH
 
 ```bash
     $ sudo apt-get update
@@ -27,13 +27,13 @@ Edit de file ```.zshrc``` and add this line:
         zsh
 ```
 
-## Installing Oh-My-ZSH
+### Installing Oh-My-ZSH
 
 ```bash
     $ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | bash
 ```
 
-## Setting ZSH as the default shell (instead of bash)
+### Setting ZSH as the default shell (instead of bash)
 
 ```bash
     $ w=`which zsh` 
@@ -45,6 +45,7 @@ Edit de file ```.zshrc``` and add this line:
 
 ```bash
     $ cd ~ && git clone https://github.com/zsh-users/antigen.git .antigen 
+    
 ```
 
 ### Install antigen - Add 
@@ -85,8 +86,15 @@ antigen-apply
 EOF
 ```
 
+### Installing ZSH Centos
 
-## Fix Errors 
+```bash
+    $ yum install zsh
+    
+    $ $ h=`whoami` && usermod -s /bin/zsh $h
+```
+
+### Fix Errors 
     $ rm ~/.antigen/repos/https-COLON--SLASH--SLASH-gi* -rf
 
 
