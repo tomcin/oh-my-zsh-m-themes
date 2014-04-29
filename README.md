@@ -91,7 +91,7 @@ EOF
 ```bash
     $ yum install zsh
     
-    $ $ h=`whoami` && usermod -s /bin/zsh $h
+    $ h=`whoami` && usermod -s /bin/zsh $h
 ```
 
 ### Fix Errors 
