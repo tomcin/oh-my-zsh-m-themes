@@ -13,9 +13,19 @@ Edit de file ```.zshrc``` and add this line:
 
 ---------------------------
 
+## Credits
+
+- **oh-my-zsh**
+
+https://github.com/robbyrussell/oh-my-zsh
+
+- **zsh**
+
+http://www.zsh.org/
 
 
-### Installing ZSH
+
+## Installing ZSH
 
 ```bash
     $ sudo apt-get update
@@ -52,24 +62,24 @@ Edit de file ```.zshrc``` and add this line:
 cat <<-EOF >> ~/.zshrc
 source "$HOME/.antigen/antigen.zsh"
 
-# antigen bundle npm
 # antigen bundle bundler
 # antigen bundle command-not-found
 # antigen bundle fabric
 # antigen bundle heroku
-# antigen bundle history
 # antigen bundle kennethreitz/autoenv
 # antigen bundle lein
 # antigen bundle node
 # antigen bundle pip
 # antigen bundle python
 # antigen bundle rake
-# antigen bundle rsync
 # antigen bundle rvm
 # antigen bundle sprunge
 # antigen bundle vundle
-# antigen-bundle vagrant
 
+antigen bundle npm
+antigen bundle history
+antigen bundle rsync
+antigen-bundle vagrant
 antigen bundle git
 antigen bundle zsh-users/zsh-completions src
 antigen-bundle arialdomartini/oh-my-git
