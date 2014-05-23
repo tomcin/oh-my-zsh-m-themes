@@ -1,29 +1,81 @@
-oh-my-git-themes
+oh-my-zsh-themes
 ================
 
+zsh themes for your prompt. 
 
-## Use:
+## With antigen:
 
 Edit de file ```.zshrc``` and add this line:
 
 ```bash
-  antigen theme Mayccoll/oh-my-git-themes lio
+  antigen theme Mayccoll/oh-my-git-themes arrow-green
 ```
+
+One line command to add the line
+
+```bash
+  $ echo "antigen theme Mayccoll/oh-my-git-themes arrow-green" >> ~/.zshrc
+```
+
+## Themes
+
+- **arrow-green**
+
+![Theme zsh arrow-green](img/arrow-green.png)
+
+- **arrow-red**
+
+![Theme zsh arrow-red](img/arrow-red.png)
+
+- **flower-green**
+
+![Theme zsh flower-green](img/flower-green.png)
+
+- **flower-red**
+
+![Theme zsh flower-red](img/flower-red.png)
+
+- **star-green**
+
+![Theme zsh star-green](img/star-green.png)
+
+- star-red
+
+![Theme zsh star-rd](img/star-red.png)
+
+- **gre**
+
+- **ire**
+
+- **lio**
+
+- **oti**
+
+
+## Color Scheme
+
+https://github.com/Mayccoll/Elementary-OS-Terminal-Colors
 
 
 ---------------------------
 
 ## Credits
 
-- **oh-my-zsh**
-
-https://github.com/robbyrussell/oh-my-zsh
-
 - **zsh**
 
 http://www.zsh.org/
 
+- **oh-my-zsh**
 
+https://github.com/robbyrussell/oh-my-zsh
+
+- **Antigen**
+
+https://github.com/zsh-users/antigen
+
+---------------------------
+
+# Installing all components 
 
 ## Installing ZSH
 
@@ -86,7 +138,7 @@ antigen-bundle arialdomartini/oh-my-git
 antigen-bundle zsh-users/zsh-history-substring-search
 antigen-bundle zsh-users/zsh-syntax-highlighting
 
-antigen theme Mayccoll/oh-my-git-themes lio
+antigen theme Mayccoll/oh-my-git-themes arrow-green
 
 antigen-apply
 EOF
