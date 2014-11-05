@@ -1,5 +1,5 @@
 # Symbols
-: ${is_a_git_repo_symbol:='★'}
+: ${is_a_git_repo_symbol:='❤'}
 : ${has_untracked_files_symbol:='∿'}
 : ${has_adds_symbol:='+'}
 : ${has_deletions_symbol:='-'}
@@ -47,10 +47,11 @@ reset=$RESET
 
 PROMPT='
 $(build_prompt)%{$fg_no_bold[blue]%}%~
-%{$fg_bold[red]%}❯ $'
-RPROMPT='%{$reset_color%}%T %{$green]%}[%n] [%m]%{$reset_color%}'
+%{$fg_bold[red]%}❯ $ '
+RPROMPT='%{$reset_color%}%T %{$fg_bold[green]%}[%n] [%m]%{$reset_color%}'
 
 #ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}- on %{$fg_bold[magenta]%}"
 #ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "
 #ZSH_THEME_GIT_PROMPT_CLEAN="%{$reset_colocr%} branch %{$fg_bold[green]%}✔"
 #ZSH_THEME_GIT_PROMPT_DIRTY="%{$reset_color%} branch %{$fg_bold[yellow]%}✗"
+
