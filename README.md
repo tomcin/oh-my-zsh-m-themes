@@ -27,6 +27,12 @@ One line command to add the line
 
 ## Themes
 
+## Update
+
+```bash
+    cd ~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-Mayccoll-SLASH-oh-my-git-themes.git
+    git pull
+```
 
 ## Color Scheme
 
