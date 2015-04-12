@@ -5,7 +5,7 @@ if [[ $EUID -ne 0 ]]; then
 PROMPT='
 $(build_prompt)
 %{$fg_no_bold[blue]%}%~
-%{$fg_bold[green]%}• %{$fg_bold[yellow]%}• %{$fg_bold[red]%}• %{$fg[cyan]%}$ '
+%{$fg_bold[green]%}• %{$fg_bold[yellow]%}• %{$fg_bold[red]%}• '
 RPROMPT='%{$reset_color%} ⌚ %T %{$fg_no_bold[black]%}|%n @ %m|%{$reset_color%}'
 else
   # root
