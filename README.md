@@ -3,7 +3,7 @@ Oh My Zsh M Themes
 
 A collection of zsh themes for your prompt.
 
-![Demo](./img/demo.gif)
+![Demo](https://raw.githubusercontent.com/Mayccoll/oh-my-zsh-m-themes/master/img/demo.gif)
 
 ## Prerequisites
 
