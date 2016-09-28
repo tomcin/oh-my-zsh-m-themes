@@ -3,14 +3,14 @@
 if [[ $EUID -ne 0 ]]; then
   # no root
 PROMPT='
-$(build_prompt)
+$(custom_build_prompt)
 %{$fg_no_bold[yellow]%}%~
 %{$reset_color%}$ '
 RPROMPT='%{$reset_color%}%T %{$fg_bold[green]%}[%n@%m]%{$reset_color%}'
 else
   # root
 PROMPT='
-$(build_prompt)
+$(custom_build_prompt)
 %{$fg_no_bold[yellow]%}%~
 %{$fg_bold[red]%}# '
 RPROMPT='%{$reset_color%}%T %{$fg_bold[green]%}[%n@%m]%{$reset_color%}'
