@@ -49,7 +49,7 @@ function enrich_append {
     echo -n "${color}${symbol}  "
 }
 
-function build_prompt {
+function custom_build_prompt {
     local enabled=${1}
     local current_commit_hash=${2}
     local is_a_git_repo=${3}
