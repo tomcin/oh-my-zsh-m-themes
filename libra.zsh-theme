@@ -19,13 +19,13 @@ fi
 
 # : ${omg_ungit_prompt:=$PS1}
 
-: ${omg_is_a_git_repo_symbol:=''}
+: ${omg_is_a_git_repo_symbol:=''}
 : ${omg_has_untracked_files_symbol:=''}        #                ?    
 : ${omg_has_adds_symbol:=''}
 : ${omg_has_deletions_symbol:=''}
-: ${omg_has_cached_deletions_symbol:=''}
+: ${omg_has_cached_deletions_symbol:=''}
 : ${omg_has_modifications_symbol:=''}
-: ${omg_has_cached_modifications_symbol:=''}
+: ${omg_has_cached_modifications_symbol:=''}
 : ${omg_ready_to_commit_symbol:=''}            #   →
 : ${omg_is_on_a_tag_symbol:='⌫'}                #   
 : ${omg_needs_to_merge_symbol:='ᄉ'}
